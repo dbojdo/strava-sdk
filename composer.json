@@ -1,0 +1,34 @@
+{
+    "name": "goosfraba/strava-sdk",
+    "description": "Strava SDK for PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "kriswallsmith/buzz": "^1.2",
+        "nyholm/psr7": "^1.5",
+        "jms/serializer":  "^3.21.0",
+        "symfony/console": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Goosfraba\\StravaSDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goosfraba\\StravaSDK\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dbojdo",
+            "email": "daniel@bojdo.eu"
+        }
+    ],
+    "minimum-stability": "stable"
+}
